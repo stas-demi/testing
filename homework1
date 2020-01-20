@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Lato,serif;
+        }
+        ul {
+            color: #4a5d8b;
+            font-size: 30px;
+            list-style: none;
+            display: flex;
+
+
+        }
+        ul#icons{
+            list-style: none;
+            display:flex;
+
+
+
+        }
+        i{
+            background-color:#4a5d8b;
+            border-radius: 50%;
+            font-size:20px;
+            color: white;
+            width:40px;
+            height:40px;
+            text-align: center;
+            text-decoration:none;
+            padding-top: 10px;
+
+        }
+
+
+        li{
+            margin-right:15px;
+
+
+        }
+
+        header{
+            width:100%;
+            display:flex;
+            padding: 45px 50px;
+            height:250px;
+        }
+        a{
+            color: #4a5d8b;
+            font-size: 30px;
+            font-weight: bold;
+            text-decoration: none;
+            padding-left: 15px;
+
+
+        }
+        h1{
+            color: #4a5d8b;
+            font-size: 48px;
+            font-weight: bold;
+
+        }
+        p{
+            color: #4a5d8b;
+            font-size: 25px;
+            margin-top:15px;
+
+        }
+        #left-block {
+            position: absolute;
+            left:65px ;
+            max-width: 450px;
+        }
+        button{
+            color: #4a5d8b;
+            font-size: 20px;
+            background-color: white;
+            border-radius: 25px;
+            width:150px;
+            height:50px;
+            border: none;
+            margin-top: 15px;
+
+        }
+        #links{
+            position: absolute;
+            bottom:20px;
+            right: 20px;
+        }
+        body{
+            background-image: url("images/background-bot.png"),url("images/background-mid.png"), url("images/background-top.png");
+            background-position: left bottom, right center, right top;
+            background-repeat: no-repeat, no-repeat, no-repeat;
+        }
+    </style>
+
+</head>
+<header>
+
+        <div style="width: 60%; ">
+            <ul>
+                <li>
+                    <a href="https://htmlbook.ru">Home</a>
+                </li>
+            </ul>
+        </div>
+        <div style="width: 40%;">
+            <ul >
+                <li>Blog</li>
+                <li>About us</li>
+                <li>Team</li>
+                <li>Contact us</li>
+
+            </ul>
+        </div>
+
+
+
+</header>
+<body>
+<div id="main" style="height:450px;">
+    <div id="left-block">
+        <h1>Communication</h1>
+        <p>Lorem ipsum dolor sit amet, conse cetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor.</p>
+        <form>
+            <button>Learn More</button>
+        </form>
+
+    </div>
+    <div id="links">
+        <ul id="icons">
+            <li><i class="fab fa-linkedin-in"></i></li>
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-pinterest-p"></i></li>
+        </ul>
+
+    </div>
+
+</div>
+
+</body>
+</html>
