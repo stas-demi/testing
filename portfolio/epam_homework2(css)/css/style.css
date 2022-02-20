@@ -1,0 +1,122 @@
+p::first-letter {
+    font-size: 30px;
+    color:#87CEFA
+  }
+h2~p:first-of-type{
+    font-style: italic;
+  }
+div#about h2:hover{
+      color: white;
+      background-color:#87CEFA ;
+  }
+p.tm-section-description{
+        text-indent: 25px;
+        line-height: 35px;
+        
+}
+
+div.flex-2-col{
+    display: flex;
+    justify-content: center;
+    
+}
+div.tm-content-box, nav, section{
+  box-shadow: 0 0 7px grey;
+}
+div.tm-banner{
+  padding: 0;
+  border: 30px solid #F5F5F5;
+}
+section::before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	clip-path: polygon(16% 0%, 0 0, 0 7%);
+	background:lightblue;
+}
+div.carousel-content h2{
+  color: gainsboro;
+  letter-spacing: 5px;
+}
+section.heading>div>h2{
+  text-align: center;
+  color: lightblue;
+}
+div.padding-medium a{
+  color: black;
+}
+.tm
+
+
+div.padding-medium a:visited{
+  text-decoration: underline;
+}
+div.padding-medium a:hover{
+  color: lightblue;
+  text-decoration-style: double;
+}
+a.text::after{
+  content: "New";
+  font-size: 10px;
+  color: red;
+  vertical-align: super;
+}
+section.blocks>div>p::first-letter {
+  color: black;
+}
+li.box>div>p::first-letter {
+  color: black;
+}
+li.box-work{
+  padding: 5px;
+}
+li.box:nth-child(even){
+  background-color:#F5F5F5;
+
+}
+div.mandatory-field::after{
+  content: "*";
+  color: red;
+  font-weight: 400;
+}
+button.btn{
+  color: lightblue;
+  background-color: white;
+  border: 1px solid  lightblue ;
+  width: 170px;
+  height: 50px;
+  float: right;
+  border-radius: 0;
+}
+button.btn:hover{
+  background-color: lightblue;
+  color: white;
+  border: none;
+}
+li.tm-nav-item:hover{
+  background-color:#F5F5F5;
+}
+@media print{
+  nav, div#about, section.heading, section.blocks, section#ideas, 
+  section.tm-content-box{
+    display: none;
+  }
+  div.flex-item>img{
+    padding-top: 100px;
+    padding-right: 100px;
+    width: 400px;
+    height: 300px;
+  }
+  div.tm-banner{
+    border: none;
+    padding: 30px;
+  }
+  div.tm-team-description-container>h2{
+    color: blue;
+  }
+  section::before {
+    display: none;
+  }
+  
+
+}
